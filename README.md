@@ -6,3 +6,5 @@ Make all the required variables as environment variables.
 Pass the matchid you want to use as an arguement to App.py. 
 
 Do note you need to Sign up for Twilio. 
+
+![Screenshot of sms sent via the script, showing the details of a past match](https://github.com/yatharth9/SmsScores/blob/main/20201205_152158.jpg)
