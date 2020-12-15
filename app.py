@@ -47,6 +47,8 @@ def main():
     ls = live_score(id)
     message = lcom + ls
     s_message = beautify(message)
+    if len(s_message) > 160:
+        s_message = s_message[:160]
     #print(s_message)
     SMS.send(s_message)
 
